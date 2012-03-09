@@ -1,0 +1,1059 @@
+# ircd-hybrid-7 custom message file
+# Copyright (C) 2000
+# David Taylor <davidt@yadt.co.uk>, 2000.
+#
+#, fuzzy
+msgid	""
+msgstr	"Project-Id-Version: ircd-hybrid-7\n"
+	"POT-Creation-Date: 2001-07-01 21:52-0700\n"
+	"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+	"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+	"Language-Team: LANGUAGE <LL@li.org>\n"
+	"MIME-Version: 1.0\n"
+	"Content-Type: text/plain; charset=ISO-8859-1\n"
+	"Content-Transfer-Encoding: text-plain\n"
+
+#: ../src/messages.tab:24
+#, c-format
+msgid	":%s 001 %s :Welcome to the %s Internet Relay Chat Network %s"
+msgstr	":%s 001 %s :Dobre doshyl na IRC mrezhata %s, %s :)"
+
+#: ../src/messages.tab:25
+#, c-format
+msgid	":%s 002 %s :Your host is %s, running version %s"
+msgstr	":%s 002 %s :Tvoja server e %s, versia %s"
+
+#: ../src/messages.tab:26
+#, c-format
+msgid	":%s 003 %s :This server was created %s"
+msgstr	":%s 003 %s :Tozi server e syzdaden na %s"
+
+#: ../src/messages.tab:27
+#, c-format
+msgid	":%s 004 %s %s %s oiwszcerkfydnxbauglqRTYS bdiklmnopstveIhacrwxzCMRS bdkloveIhw"
+msgstr	""
+
+#: ../src/messages.tab:28
+#, c-format
+msgid	":%s 005 %s %s :are supported by this server"
+msgstr	":%s 005 %s %s :se poddyrzhat ot tozi server"
+
+#: ../src/messages.tab:33
+#, c-format
+msgid	":%s 010 %s %s %d :Please use this Server/Port instead"
+msgstr	":%s 010 %s %s %d :Molia izpolzvaj tozi server/port vmesto men"
+
+#: ../src/messages.tab:43
+#, c-format
+msgid	":%s 020 %s %s %s :Your ID and key is"
+msgstr	":%s 020 %s %s %s :Tvoja ID i kliuch sa"
+
+#: ../src/messages.tab:223
+#, c-format
+msgid	":%s 200 %s Link %s%s %s %s"
+msgstr	""
+
+#: ../src/messages.tab:224
+#, c-format
+msgid	":%s 201 %s Try. %s %s"
+msgstr	""
+
+#: ../src/messages.tab:225
+#, c-format
+msgid	":%s 202 %s H.S. %s %s"
+msgstr	""
+
+#: ../src/messages.tab:226
+#, c-format
+msgid	":%s 203 %s ???? %s %s (%s) %d"
+msgstr	""
+
+#: ../src/messages.tab:227
+#, c-format
+msgid	":%s 204 %s Oper %s %s (%s) %lu %lu"
+msgstr	""
+
+#: ../src/messages.tab:228
+#, c-format
+msgid	":%s 205 %s User %s %s (%s) %lu %lu"
+msgstr	""
+
+#: ../src/messages.tab:229
+#, c-format
+msgid	":%s 206 %s Serv %s %dS %dC %s %s!%s@%s %lu"
+msgstr	""
+
+#: ../src/messages.tab:231
+#, c-format
+msgid	":%s 208 %s <newtype> 0 %s"
+msgstr	""
+
+#: ../src/messages.tab:232
+#, c-format
+msgid	":%s 209 %s Class %s %d"
+msgstr	""
+
+#: ../src/messages.tab:235
+#, c-format
+msgid	":%s 212 %s %s %u %u :%u"
+msgstr	""
+
+#: ../src/messages.tab:236
+#, c-format
+msgid	":%s 213 %s %c %s %s %s %d %s"
+msgstr	""
+
+#: ../src/messages.tab:237
+#, c-format
+msgid	":%s 214 %s %c %s * %s %d %s"
+msgstr	""
+
+#: ../src/messages.tab:238
+#, c-format
+msgid	":%s 215 %s %c %s * %s@%s %d %s"
+msgstr	""
+
+#: ../src/messages.tab:239
+#, c-format
+msgid	":%s 216 %s %c %s * %s %s"
+msgstr	""
+
+#: ../src/messages.tab:240
+#, c-format
+msgid	":%s 217 %s %c %s %s"
+msgstr	""
+
+#: ../src/messages.tab:241
+#, c-format
+msgid	":%s 218 %s %c %s %d %d %d %lu"
+msgstr	""
+
+#: ../src/messages.tab:242
+#, c-format
+msgid	":%s 219 %s %s :End of /STATS report"
+msgstr	":%s 219 %s %s :Kraj na /STATS zajavkata"
+
+#: ../src/messages.tab:243
+#, c-format
+msgid	":%s 220 %s %c %d %s %d :%s"
+msgstr	""
+
+#: ../src/messages.tab:244
+#, c-format
+msgid	":%s 221 %s %s"
+msgstr	""
+
+#: ../src/messages.tab:248
+#, c-format
+msgid	":%s 225 %s %c %s %s"
+msgstr	""
+
+#: ../src/messages.tab:249
+#, c-format
+msgid	":%s 226 %s %s"
+msgstr	""
+
+#: ../src/messages.tab:250
+#, c-format
+msgid	":%s 227 %s Services %s"
+msgstr	""
+
+#: ../src/messages.tab:251
+#, c-format
+msgid	":%s 228 %s Equiv %s/%s"
+msgstr	":%s 228 %s Ekvivalentni nickove %s/%s"
+
+#: ../src/messages.tab:252
+#, c-format
+msgid	":%s 229 %s Relay %s"
+msgstr	":%s 229 %s Relay server %s"
+
+#: ../src/messages.tab:253
+#, c-format
+msgid	":%s 230 %s Userpar %s %s"
+msgstr	":%s 230 %s USER parametri %s %s"
+
+#: ../src/messages.tab:254
+#, c-format
+msgid	":%s 231 %s Bridge %s/%s"
+msgstr	":%s 231 %s cluster most %s/%s"
+
+#: ../src/messages.tab:264
+#, c-format
+msgid	":%s 241 %s %c %s * %s %d %s"
+msgstr	""
+
+#: ../src/messages.tab:265
+#, c-format
+msgid	":%s 242 %s :Server Up %d days, %d:%02d:%02d"
+msgstr	":%s 242 %s :Servera raboti ot %d dena, %d:%02d:%02d"
+
+#: ../src/messages.tab:266
+#, c-format
+msgid	":%s 243 %s %c %s@%s * %s %s %s %s"
+msgstr	""
+
+#: ../src/messages.tab:267
+#, c-format
+msgid	":%s 244 %s %c %s * %s %d %s"
+msgstr	""
+
+#: ../src/messages.tab:270
+#, c-format
+msgid	":%s 247 %s X %s %s * * 0 0"
+msgstr	""
+
+#: ../src/messages.tab:272
+#, c-format
+msgid	":%s 248 %s U %s %s"
+msgstr	""
+
+#: ../src/messages.tab:275
+#, c-format
+msgid	":%s 250 %s :Highest connection count: %d (%d clients) (%d "
+	"connections received)"
+msgstr	":%s 250 %s :Maximalen dostignat broj vryzki: %d (%d klienta) (%d obshto)"
+
+#: ../src/messages.tab:277
+#, c-format
+msgid	":%s 251 %s :There are %d users and %d invisible on %d servers"
+msgstr	":%s 251 %s :Na mrezhata ima %d usera i %d nevidimi (+i) na %d servera"
+
+#: ../src/messages.tab:278
+#, c-format
+msgid	":%s 252 %s %d :IRC Operators online"
+msgstr	":%s 252 %s %d :IRC operatora sa online"
+
+#: ../src/messages.tab:279
+#, c-format
+msgid	":%s 253 %s %d :unknown connection(s)"
+msgstr	":%s 253 %s %d :nepoznati connection(s)"
+
+#: ../src/messages.tab:280
+#, c-format
+msgid	":%s 254 %s %d :channels formed"
+msgstr	":%s 254 %s %d :kanala sa obrazuvani"
+
+#: ../src/messages.tab:281
+#, c-format
+msgid	":%s 255 %s :I have %d clients and %d servers"
+msgstr	":%s 255 %s :%d klienta i %d servera sa zakacheni za men"
+
+#: ../src/messages.tab:282
+#, c-format
+msgid	":%s 256 %s :Administrative info about %s"
+msgstr	":%s 256 %s :Administrativna informacia za %s"
+
+#: ../src/messages.tab:283
+#, c-format
+msgid	":%s 257 %s :%s"
+msgstr	""
+
+#: ../src/messages.tab:284
+#, c-format
+msgid	":%s 258 %s :%s"
+msgstr	""
+
+#: ../src/messages.tab:285
+#, c-format
+msgid	":%s 259 %s :%s"
+msgstr	""
+
+#: ../src/messages.tab:287
+#, c-format
+msgid	":%s 261 %s File %s %d"
+msgstr	""
+
+#: ../src/messages.tab:288
+#, c-format
+msgid	":%s 262 %s %s :End of TRACE"
+msgstr	":%s 262 %s %s :Kraj na /TRACE zajavkata"
+
+#: ../src/messages.tab:290
+#, c-format
+msgid	":%s 263 %s :Server load is temporarily too heavy. Please wait a "
+	"while and try again."
+msgstr	":%s 263 %s :Natovarvaneto na servera v momenta e prekaleno goliamo... "
+	"Molia izchakaj malko, ok?"
+
+#: ../src/messages.tab:292
+#, c-format
+msgid	":%s 265 %s :Current local  users: %d  Max: %d"
+msgstr	":%s 265 %s :%d usera (maximum %d) polzvat tozi server v momenta"
+
+#: ../src/messages.tab:293
+#, c-format
+msgid	":%s 266 %s :Current global users: %d  Max: %d"
+msgstr	":%s 266 %s :%d usera (maximum %d) sa na mrezhata v momenta"
+
+#: ../src/messages.tab:294
+#, c-format
+msgid	":%s 267 %s :Current identified users: %d  Max: %d"
+msgstr	":%s 267 %s :%d (maximum %d) sa se identnali na NickServ v momenta"
+
+#: ../src/messages.tab:303
+#, c-format
+msgid	":%s 276 %s %s :has %d possible virtual channels available"
+msgstr	":%s 276 %s %s :ima %d izbiraemi virtualni kanala"
+
+#: ../src/messages.tab:304
+#, c-format
+msgid	":%s 277 %s %s "
+msgstr	""
+
+#: ../src/messages.tab:305
+#, c-format
+msgid	":%s 278 %s :Type /%s %s <key> to specify the channel you want"
+msgstr	":%s 278 %s :Napishi /%s %s <kliuch> za da izberesh virtualen kanal"
+
+#: ../src/messages.tab:306
+#, c-format
+msgid   ":%s 281 %s %s :"
+msgstr  ""
+
+#: ../src/messages.tab:307
+#, c-format
+msgid   ":%s 282 %s :End of /ACCEPT list."
+msgstr  ":%s 282 %s :Kraj na /ACCEPT spisyka"
+
+#: ../src/messages.tab:324
+#, c-format
+msgid   ":%s 297 %s %s :is connected via SSL (secure link)"
+msgstr  ":%s 297 %s %s :polzva zasekretena vryzka (prez SSL)"
+
+#: ../src/messages.tab:325
+#, c-format
+msgid   ":%s 298 %s %s :has cyrillic-encoded nickname"
+msgstr  ":%s 298 %s %s :e patriot :) ima nick na kirilica"
+
+#: ../src/messages.tab:328
+#, c-format
+msgid	":%s 301 %s %s :%s"
+msgstr	""
+
+#: ../src/messages.tab:329
+#, c-format
+msgid	":%s 302 %s :%s"
+msgstr	""
+
+#: ../src/messages.tab:330
+#, c-format
+msgid	":%s 303 %s :"
+msgstr	""
+
+#: ../src/messages.tab:332
+#, c-format
+msgid	":%s 305 %s :You are no longer marked as being away"
+msgstr	":%s 305 %s :Veche ne si AWAY"
+	"justice?"
+
+#: ../src/messages.tab:333
+#, c-format
+msgid	":%s 306 %s :You have been marked as being away"
+msgstr	":%s 306 %s :Sega si markiran kato AWAY"
+
+#: ../src/messages.tab:335
+#, c-format
+msgid	":%s 308 %s %s :is a Server Administrator"
+msgstr	":%s 308 %s %s :e administrator na server"
+
+#: ../src/messages.tab:338
+#, c-format
+msgid	":%s 311 %s %s %s %s * :%s"
+msgstr	""
+
+#: ../src/messages.tab:339
+#, c-format
+msgid	":%s 312 %s %s %s :%s"
+msgstr	""
+
+#: ../src/messages.tab:340
+#, c-format
+msgid	":%s 313 %s %s :is an IRC Operator"
+msgstr	":%s 313 %s %s :e IRC operator (naznachen da ti pomaga)"
+
+#: ../src/messages.tab:341
+#, c-format
+msgid	":%s 314 %s %s %s %s * :%s"
+msgstr	""
+
+#: ../src/messages.tab:342
+#, c-format
+msgid	":%s 315 %s %s :End of /WHO list."
+msgstr	":%s 315 %s %s :Kraj na /WHO spisyka"
+
+#: ../src/messages.tab:344
+#, c-format
+msgid	":%s 317 %s %s %d %d :seconds idle, signon time"
+msgstr	":%s 317 %s %s %d %d :sekundi bezdejstvasht, vreme na logvane"
+
+#: ../src/messages.tab:345
+#, c-format
+msgid	":%s 318 %s %s :End of /WHOIS list."
+msgstr	":%s 318 %s %s :Kraj na /WHOIS spisyka"
+
+#: ../src/messages.tab:346
+#, c-format
+msgid	":%s 319 %s %s :%s"
+msgstr	""
+
+#: ../src/messages.tab:348
+#, c-format
+msgid	":%s 321 %s Channel :Users  Name"
+msgstr	":%s 321 %s Kanal :Useri  Ime"
+
+#: ../src/messages.tab:349
+#, c-format
+msgid	":%s 322 %s %s %d :%s"
+msgstr	""
+
+#: ../src/messages.tab:350
+#, c-format
+msgid	":%s 323 %s :End of /LIST"
+msgstr	":%s 323 %s :Kraj na /LIST"
+
+#: ../src/messages.tab:351
+#, c-format
+msgid	":%s 324 %s %s %s %s"
+msgstr	""
+
+#: ../src/messages.tab:353
+#, c-format
+msgid	":%s 326 %s %s :has identified for: %s"
+msgstr	":%s 326 %s %s :se e identnal za: %s"
+
+#: ../src/messages.tab:354
+#, c-format
+msgid	":%s 327 %s %s :logged on %s from %s"
+msgstr	":%s 327 %s %s :se e lognal na %s ot %s"
+
+#: ../src/messages.tab:356
+#, c-format
+msgid	":%s 329 %s %s %lu"
+msgstr	""
+
+#: ../src/messages.tab:358
+#, c-format
+msgid	":%s 331 %s %s :No topic is set."
+msgstr	":%s 331 %s %s :Niama postaven topic"
+
+#: ../src/messages.tab:359
+#, c-format
+msgid	":%s 332 %s %s :%s"
+msgstr	""
+
+#: ../src/messages.tab:360
+#, c-format
+msgid	":%s 333 %s %s %s %lu"
+msgstr	""
+
+#: ../src/messages.tab:368
+#, c-format
+msgid	":%s 341 %s %s %s"
+msgstr	""
+
+#: ../src/messages.tab:371
+#, c-format
+msgid	":%s 344 %s %s %s %s %lu"
+msgstr	""
+
+#: ../src/messages.tab:372
+#, c-format
+msgid	":%s 345 %s %s :End of Channel Subst List"
+msgstr	":%s 345 %s %s :Kraj na spisyka na dumite za zamestvane"
+
+#: ../src/messages.tab:373
+#, c-format
+msgid	":%s 346 %s %s %s %s %lu"
+msgstr	""
+
+#: ../src/messages.tab:374
+#, c-format
+msgid	":%s 347 %s %s :End of Channel Invite List"
+msgstr	":%s 347 %s %s :Kraj na spisyka na pokanenite"
+
+#: ../src/messages.tab:375
+#, c-format
+msgid	":%s 348 %s %s %s %s %lu"
+msgstr	""
+
+#: ../src/messages.tab:376
+#, c-format
+msgid	":%s 349 %s %s :End of Channel Exception List"
+msgstr	":%s 349 %s %s :Kraj na spisyka na izkluchenite ot banove"
+
+#: ../src/messages.tab:378
+#, c-format
+msgid	":%s 351 %s %s(%s).%s %s :%s%s"
+msgstr	""
+
+#: ../src/messages.tab:379
+#, c-format
+msgid	":%s 352 %s %s %s %s %s %s %s :%d %s"
+msgstr	""
+
+#: ../src/messages.tab:380
+#, c-format
+msgid	":%s 353 %s %s"
+msgstr	""
+
+#: ../src/messages.tab:389
+#, c-format
+msgid	":%s 362 %s %s :Closed. Status = %d"
+msgstr	":%s 362 %s %s :Zatvoren. Status = %d"
+
+#: ../src/messages.tab:390
+#, c-format
+msgid	":%s 363 %s %d: Connections Closed"
+msgstr	":%s 363 %s %d: Vryzkata e prekratena"
+
+#: ../src/messages.tab:391
+#, c-format
+msgid	":%s 364 %s %s %s :%d %s"
+msgstr	""
+
+#: ../src/messages.tab:392
+#, c-format
+msgid	":%s 365 %s %s :End of /LINKS list."
+msgstr	":%s 365 %s %s :Kraj na /LINKS spysyka"
+
+#: ../src/messages.tab:393
+#, c-format
+msgid	":%s 366 %s %s :End of /NAMES list."
+msgstr	":%s 366 %s %s :Kraj na /NAMES spisyka"
+
+#: ../src/messages.tab:394
+#, c-format
+msgid	":%s 367 %s %s %s %s %lu"
+msgstr	""
+
+#: ../src/messages.tab:395
+#, c-format
+msgid	":%s 368 %s %s :End of Channel Ban List"
+msgstr	":%s 368 %s %s :Kraj na spisyka na banovete"
+
+#: ../src/messages.tab:396
+#, c-format
+msgid	":%s 369 %s %s :End of WHOWAS"
+msgstr	":%s 369 %s %s :Kraj na WHOWAS"
+
+#: ../src/messages.tab:398
+#, c-format
+msgid	":%s 371 %s :%s"
+msgstr	""
+
+#: ../src/messages.tab:399
+#, c-format
+msgid	":%s 372 %s :- %s"
+msgstr	""
+
+#: ../src/messages.tab:400
+#, c-format
+msgid	":%s 373 %s :Server INFO"
+msgstr	""
+
+#: ../src/messages.tab:401
+#, c-format
+msgid	":%s 374 %s :End of /INFO list."
+msgstr	":%s 374 %s :Kraj na /INFO spisyka"
+
+#: ../src/messages.tab:402
+#, c-format
+msgid	":%s 375 %s :- %s Message of the Day - "
+msgstr	":%s 375 %s :- %s Syobshtenieto za dnes - "
+
+#: ../src/messages.tab:403
+#, c-format
+msgid	":%s 376 %s :End of /MOTD command."
+msgstr	":%s 376 %s :Kraj na /MOTD komandata"
+
+#: ../src/messages.tab:404
+#, c-format
+msgid	":%s 377 %s %s %s %s %lu"
+msgstr	""
+
+#: ../src/messages.tab:405
+#, c-format
+msgid	":%s 378 %s %s :End of Channel Deny List"
+msgstr	":%s 378 %s %s :Kraj na spisyka na bannatite po IRC ime i kanal"
+
+#: ../src/messages.tab:408
+#, c-format
+msgid	":%s 381 %s :You have entered... the Twilight Zone!."
+msgstr	":%s 381 %s :Ti vlezna v Zonata Na Zdracha :P (stana ircop... i sia kvo?)"
+
+#: ../src/messages.tab:409
+#, c-format
+msgid	":%s 382 %s %s :Rehashing"
+msgstr	":%s 382 %s %s :rehashva configa (kakvoto i da znachi tova :)"
+
+#: ../src/messages.tab:411
+#, c-format
+msgid	":%s 384 %s %d :Port to local server is"
+msgstr	":%s 384 %s %d :Porta za localnia server e"
+
+#: ../src/messages.tab:413
+#, c-format
+msgid	":%s 386 %s :%s"
+msgstr	""
+
+#: ../src/messages.tab:418
+#, c-format
+msgid	":%s 391 %s %s :%s"
+msgstr	""
+
+#: ../src/messages.tab:428
+#, c-format
+msgid	":%s 401 %s %s :No such nick/channel"
+msgstr	":%s 401 %s %s :Niama takyv nick ili kanal"
+
+#: ../src/messages.tab:429
+#, c-format
+msgid	":%s 402 %s %s :No such server"
+msgstr	":%s 402 %s %s :Niama takyv server"
+
+#: ../src/messages.tab:430
+#, c-format
+msgid	":%s 403 %s %s :No such channel"
+msgstr	":%s 403 %s %s :Niama takyv kanal"
+
+#: ../src/messages.tab:431
+#, c-format
+msgid	":%s 404 %s %s :Cannot send to channel"
+msgstr	":%s 404 %s %s :Ne mozhe da pishesh na kanala"
+
+#: ../src/messages.tab:432
+#, c-format
+msgid	":%s 405 %s %s :You have joined too many channels"
+msgstr	":%s 405 %s %s :Veche si na prekaleno mnogo kanali"
+
+#: ../src/messages.tab:433
+#, c-format
+msgid	":%s 406 %s %s :There was no such nickname"
+msgstr	":%s 406 %s %s :Niamalo e takyv nick"
+
+#: ../src/messages.tab:435
+#, c-format
+msgid	":%s 407 %s %s :Too many recipients. Only %d processed"
+msgstr	":%s 407 %s %s :Prekaleno mnogo poluchateli. Izprateno samo do %d"
+
+#: ../src/messages.tab:437
+#, c-format
+msgid	":%s 409 %s :No origin specified"
+msgstr	":%s 409 %s :Ne e zadaden iztochnik"
+
+#: ../src/messages.tab:439
+#, c-format
+msgid	":%s 411 %s :No recipient given (%s)"
+msgstr	":%s 411 %s :Ne e zadaden poluchatel (%s)"
+
+#: ../src/messages.tab:440
+#, c-format
+msgid	":%s 412 %s :No text to send"
+msgstr	":%s 412 %s :Ne si napisal text"
+
+#: ../src/messages.tab:441
+#, c-format
+msgid	":%s 413 %s %s :No toplevel domain specified"
+msgstr	":%s 413 %s %s :Ne e zadaden toplevel domain"
+
+#: ../src/messages.tab:442
+#, c-format
+msgid	":%s 414 %s %s :Wildcard in toplevel Domain"
+msgstr	""
+
+#: ../src/messages.tab:449
+#, c-format
+msgid	":%s 421 %s %s :Unknown command"
+msgstr	":%s 421 %s %s :Nepoznata komanda"
+
+#: ../src/messages.tab:450
+#, c-format
+msgid	":%s 422 %s :MOTD File is missing"
+msgstr	":%s 422 %s :MOTD file lipsva"
+
+#: ../src/messages.tab:452
+#, c-format
+msgid	":%s 423 %s %s :No administrative info available"
+msgstr	":%s 423 %s %s :Niama administrativna informacia"
+
+#: ../src/messages.tab:453
+#, c-format
+msgid	":%s 424 %s :File error doing %s on %s"
+msgstr	":%s 424 %s :File greshka po vreme na %s vyrhu %s"
+
+#: ../src/messages.tab:460
+#, c-format
+msgid	":%s 431 %s :No nickname given"
+msgstr	":%s 431 %s :Ne si zadal nick"
+
+#: ../src/messages.tab:461
+#, c-format
+msgid	":%s 432 %s %s :Erroneous Nickname"
+msgstr	":%s 432 %s %s :Greshen nick"
+
+#: ../src/messages.tab:462
+#, c-format
+msgid	":%s 433 %s %s :Nickname is already in use."
+msgstr	":%s 433 %s %s :Veche ima niakoj drug s tozi nick"
+
+#: ../src/messages.tab:465
+#, c-format
+msgid	":%s 436 %s %s :Nickname collision KILL"
+msgstr	":%s 436 %s %s :KILL zaradi kolizia na nick"
+
+#: ../src/messages.tab:466
+#, c-format
+msgid	":%s 437 %s %s :Nick/channel is temporarily unavailable"
+msgstr	":%s 437 %s %s :Tozi nick ili kanal e vremenno zabranen za polzvane"
+
+#: ../src/messages.tab:467
+#, fuzzy, c-format
+msgid	":%s 438 %s %s %s :Nick change too fast. Please wait %d seconds."
+msgstr	":%s 438 %s %s %s :Prekaleno byrza smiana na nick. Izchakaj %d secondi."
+
+#: ../src/messages.tab:470
+#, c-format
+msgid	":%s 441 %s %s %s :They aren't on that channel"
+msgstr	":%s 441 %s %s %s :Ne e na tozi kanal"
+
+#: ../src/messages.tab:471
+#, c-format
+msgid	":%s 442 %s %s :You're not on that channel"
+msgstr	":%s 442 %s %s :Ti ne si na tozi kanal"
+
+#: ../src/messages.tab:472
+#, c-format
+msgid	":%s 443 %s %s %s :is already on channel"
+msgstr	":%s 443 %s %s %s :veche e na kanala"
+
+#: ../src/messages.tab:473
+#, c-format
+msgid	":%s 444 %s %s :User not logged in"
+msgstr	":%s 444 %s %s :Tozi user ne e lognat"
+
+#: ../src/messages.tab:474
+#, c-format
+msgid	":%s 445 %s :SUMMON has been removed"
+msgstr	":%s 445 %s :SUMMON komanda niama ot Balkanskata vojna"
+
+#: ../src/messages.tab:475
+#, c-format
+msgid	":%s 446 %s :USERS has been removed"
+msgstr	":%s 446 %s :USERS komandata e premahnata"
+
+#: ../src/messages.tab:480
+#, c-format
+msgid	":%s 451 %s :You have not registered"
+msgstr	":%s 451 %s :Ne si registriran oshte"
+
+#: ../src/messages.tab:481
+#, c-format
+msgid	":%s 452 %s %s :No repeating allowed (+z)"
+msgstr	":%s 452 %s %s :Povtarianeto e zabraneno (+z)"
+
+#: ../src/messages.tab:481
+#, c-format
+msgid   ":%s 456 %s :Accept list is full"
+msgstr  ":%s 456 %s :Accept spisyka e pylen"
+
+#: ../src/messages.tab:482
+#, c-format
+msgid   ":%s 457 %s %s :is already on your accept list"
+msgstr  ":%s 457 %s %s :e veche v tvoja accept spisyk"
+
+#: ../src/messages.tab:483
+#, c-format
+msgid   ":%s 458 %s %s :is not on your accept list"
+msgstr  ":%s 458 %s %s :ne e v tvoja accept spisyk"
+
+#: ../src/messages.tab:490
+#, c-format
+msgid	":%s 461 %s %s :Not enough parameters"
+msgstr	":%s 461 %s %s :Niama dostatychno parametri"
+
+#: ../src/messages.tab:491
+#, c-format
+msgid	":%s 462 %s :You may not reregister"
+msgstr	":%s 462 %s :Ne mozhe da se preregistrirash"
+
+#: ../src/messages.tab:492
+#, c-format
+msgid	":%s 463 %s :Your host isn't among the privileged"
+msgstr	":%s 463 %s :Tvoja host ne e ot privilegirovanite"
+
+#: ../src/messages.tab:493
+#, c-format
+msgid	":%s 464 %s :Password Incorrect"
+msgstr	":%s 464 %s :Greshna parola"
+
+#: ../src/messages.tab:494
+#, fuzzy, c-format
+msgid	":%s 465 %s :You are banned from this server- %s"
+msgstr	":%s 465 %s :Bannat si na tozi server- %s"
+
+#: ../src/messages.tab:496
+#, c-format
+msgid	":%s 467 %s %s :Channel key already set"
+msgstr	":%s 467 %s %s :Kliucha na kanala e veche postaven"
+
+#: ../src/messages.tab:497
+#, c-format
+msgid   ":%s 468 %s %s :Cannot send to channel (+M)"
+msgstr  ":%s 468 %s %s :Samo identnati mogat da govoriat (+M)"
+
+#: ../src/messages.tab:498
+#, c-format
+msgid	":%s 469 %s %s :Cannot join channel (+R)"
+msgstr	":%s 469 %s %s :Samo identnati mogat da vliazat (+R)"
+
+#: ../src/messages.tab:499
+#, c-format
+msgid	":%s 470 %s %s :Cannot join channel (+C)"
+msgstr	":%s 470 %s %s :Na kanala ne sa razresheni nickove na kirilica (+C)"
+
+#: ../src/messages.tab:500
+#, c-format
+msgid	":%s 471 %s %s :Cannot join channel (+l)"
+msgstr	":%s 471 %s %s :Ne mozhesh da vlezesh, kanala e pylen (+l)"
+
+#: ../src/messages.tab:501
+#, c-format
+msgid	":%s 472 %s %c :is unknown mode char to me"
+msgstr	":%s 472 %s %c :e nepoznata bukva za mode"
+
+#: ../src/messages.tab:502
+#, c-format
+msgid	":%s 473 %s %s :Cannot join channel (+i)"
+msgstr	":%s 473 %s %s :Ne mozhesh da vlezesh, samo za pokaneni (+i)"
+
+#: ../src/messages.tab:503
+#, c-format
+msgid	":%s 474 %s %s :Cannot join channel (+b)"
+msgstr	":%s 474 %s %s :Ne mozhesh da vlezesh, bannat si (+b)"
+
+#: ../src/messages.tab:504
+#, c-format
+msgid	":%s 475 %s %s :Cannot join channel (+k)"
+msgstr	":%s 475 %s %s :Ne mozhesh da vlezesh, kanala ima kliuch (+k)"
+
+#: ../src/messages.tab:505
+#, c-format
+msgid	":%s 476 %s %s :Bad Channel Mask"
+msgstr	":%s 476 %s %s :Nevalidna maska na kanal"
+
+#: ../src/messages.tab:506
+#, c-format
+msgid	":%s 477 %s %s :Channel does not support modes"
+msgstr	":%s 477 %s %s :Kanala ne poddyrzha modes"
+
+#: ../src/messages.tab:507
+#, c-format
+msgid	":%s 478 %s %s %s :Channel ban list is full"
+msgstr	":%s 478 %s %s %s :Spisyka na banovete e pylen"
+
+#: ../src/messages.tab:508
+#, c-format
+msgid	":%s 479 %s %s :Illegal channel name"
+msgstr	":%s 479 %s %s :Nevalidno ime na kanal"
+
+#: ../src/messages.tab:509
+#, c-format
+msgid	":%s 480 %s %s :Cannot join channel (+S)"
+msgstr	":%s 480 %s %s :Ne mozhesh da vlezesh, samo za zasekreteni vryzki (+S)"
+
+#: ../src/messages.tab:511
+#, fuzzy, c-format
+msgid	":%s 481 %s :Permission Denied - You're not an IRC operator"
+msgstr	":%s 481 %s :Ne ti e razresheno tova, ne si IRC operator"
+
+#: ../src/messages.tab:512
+#, c-format
+msgid	":%s 482 %s %s :You're not channel operator"
+msgstr	":%s 482 %s %s :Ne mozhesh tova, ne si op na tozi kanal"
+
+#: ../src/messages.tab:513
+#, c-format
+msgid	":%s 483 %s :You can't kill a server!"
+msgstr	":%s 483 %s :Ne mozhesh da killnesh server!"
+
+#: ../src/messages.tab:514
+#, c-format
+msgid	":%s 484 %s :You are restricted"
+msgstr	":%s 484 %s :Vryzkata ti e ogranichena po prava"
+
+#: ../src/messages.tab:516
+#, c-format
+msgid	":%s 485 %s :Can't change nick when banned or on a moderated channel "
+msgstr	":%s 485 %s :Ne mozhe da si smeniash nicka ako si bannat ili na moderiran kanal"
+
+#: ../src/messages.tab:517
+#, c-format
+msgid	":%s 486 %s %s %s :Cannot kick services bots"
+msgstr	":%s 486 %s %s %s :Ne mozhe da ritash botove na services"
+
+#: ../src/messages.tab:518
+#, c-format
+msgid	":%s 487 %s %s %s :Cannot de-op services bots"
+msgstr	":%s 487 %s %s %s :Ne mozhe da deopvash botove na services"
+
+#: ../src/messages.tab:522
+#, c-format
+msgid	":%s 491 %s :Only few of mere mortals may try to enter the twilight "
+	"zone"
+msgstr	":%s 491 %s :Ne stavash za IRCop (hosta ti ne syotvetstvuva)"
+
+#: ../src/messages.tab:525
+#, c-format
+msgid	":%s 494 %s %s :Cannot join channel (+d)"
+msgstr	":%s 494 %s %s :Ne mozhesh da vlezesh, bannat si po maska na info ili kanal (+d)"
+
+#: ../src/messages.tab:529
+#, c-format
+msgid   ":%s 498 %s %s :Accepts messages from SSL clients only"
+msgstr  ":%s 498 %s %s :Priema syobshtenia samo ot useri na zasekretena vryzka (SSL)"
+
+#: ../src/messages.tab:530
+#, c-format
+msgid   ":%s 499 %s %s :Accepts messages from registered nicks only"
+msgstr  ":%s 499 %s %s :Priema syobshtenia samo ot useri s identnati nickove"
+
+#: ../src/messages.tab:531
+#, c-format
+msgid	":%s 500 %s %s :Maximum size for WATCH-list is 128 entries"
+msgstr	":%s 500 %s %s :Maximalnia razmer na WATCH spisyka e 128"
+
+#: ../src/messages.tab:532
+#, c-format
+msgid	":%s 501 %s :Unknown MODE flag"
+msgstr	":%s 501 %s :Nepoznat MODE flag"
+
+#: ../src/messages.tab:533
+#, c-format
+msgid	":%s 502 %s :Can't change mode for other users"
+msgstr	":%s 502 %s :Ne mozhe da smeniash mode na drugi useri"
+
+#: ../src/messages.tab:534
+#, c-format
+msgid	":%s 503 %s :Message could not be delivered to %s"
+msgstr	":%s 503 %s :Syobshtenieto ne mozha da byde izprateno do %s"
+
+#: ../src/messages.tab:535
+#, c-format
+msgid	":%s 504 %s %s :User is not on this server"
+msgstr	":%s 504 %s %s :Usera ne e na tozi server"
+
+#: ../src/messages.tab:537
+#, c-format
+msgid	":%s 506 %s :Virtual Channels are disabled"
+msgstr	":%s 506 %s :Virtualnite kanali sa zabraneni"
+
+#: ../src/messages.tab:538
+#, c-format
+msgid	":%s 507 %s %s :You are already on a subchan"
+msgstr	":%s 507 %s %s :Veche si na podkanal"
+
+#: ../src/messages.tab:555
+#, c-format
+msgid	":%s 524 %s %s :Help not found"
+msgstr	":%s 524 %s %s :Niama pomosht"
+
+#: ../src/messages.tab:630
+#, c-format
+msgid	":%s 600 %s %s %s %s %d :logged online"
+msgstr	":%s 600 %s %s %s %s %d :vleze toku-shto"
+
+#: ../src/messages.tab:631
+#, c-format
+msgid	":%s 601 %s %s %s %s %d :logged offline"
+msgstr	":%s 601 %s %s %s %s %d :izleze toku-shto"
+
+#: ../src/messages.tab:632
+#, c-format
+msgid	":%s 602 %s %s %s %s %d :stopped watching"
+msgstr	":%s 602 %s %s %s %s %d :spria da WATCH-va"
+
+#: ../src/messages.tab:633
+#, c-format
+msgid	":%s 603 %s :You have %d and are on %d WATCH entries"
+msgstr	":%s 603 %s :Ti imash %d i si na %d WATCH spisyka"
+
+#: ../src/messages.tab:634
+#, c-format
+msgid	":%s 604 %s %s %s %s %d :is online"
+msgstr	":%s 604 %s %s %s %s %d :e online"
+
+#: ../src/messages.tab:635
+#, c-format
+msgid	":%s 605 %s %s %s %s %d :is offline"
+msgstr	":%s 605 %s %s %s %s %d :go niama"
+
+#: ../src/messages.tab:636
+#, c-format
+msgid	":%s 606 %s :%s"
+msgstr	""
+
+#: ../src/messages.tab:637
+#, c-format
+msgid	":%s 607 %s :End of WATCH %c"
+msgstr	":%s 607 %s :Kraj na WATCH %c"
+
+#: ../src/messages.tab:702
+#, c-format
+msgid	":%s 702 %s %s 0x%x %s"
+msgstr	""
+
+#: ../src/messages.tab:703
+#, c-format
+msgid	":%s 703 %s :End of /MODLIST."
+msgstr  ":%s 703 %s :Kraj na /MODLIST."
+
+#: ../src/messages.tab:735
+#, c-format
+msgid	":%s 704 %s %s :%s"
+msgstr	""
+
+#: ../src/messages.tab:736
+#, c-format
+msgid	":%s 705 %s %s :%s"
+msgstr	""
+
+#: ../src/messages.tab:737
+#, c-format
+msgid	":%s 706 %s %s :End of /HELP."
+msgstr	":%s 706 %s %s :Kraj na /HELP."
+
+#: ../src/messages.tab:741
+#, c-format
+msgid	":%s 710 %s %s %s!%s@%s :has asked for an invite."
+msgstr	":%s 710 %s %s %s!%s@%s :pomoli za pokana."
+
+#: ../src/messages.tab:742
+#, c-format
+msgid	":%s 711 %s %s :Your KNOCK has been delivered."
+msgstr  ":%s 711 %s %s :Tvoeto pochukvane beshe predadeno."
+
+#: ../src/messages.tab:743
+#, c-format
+msgid	":%s 712 %s %s :Too many KNOCKs (%s)."
+msgstr	":%s 712 %s %s :Prekaleno mnogo pochukvania (%s)."
+
+#: ../src/messages.tab:744
+#, c-format
+msgid	":%s 713 %s %s :Channel is open."
+msgstr	":%s 713 %s %s :Kanala e otvoren."
+
+#: ../src/messages.tab:745
+#, c-format
+msgid	":%s 714 %s %s :You are already on that channel."
+msgstr	":%s 714 %s %s :Veche si na tozi kanal."
+
+#: ../src/messages.tab:746
+#, c-format
+msgid	":%s 715 %s :KNOCKs are disabled."
+msgstr	":%s 715 %s :Pochukvaniata sa zabraneni."
+
+#: ../src/messages.tab:536
+#, c-format
+msgid	":%s 999 %s :Last Error Message"
+msgstr	":%s 999 %s :Posledno syobshtenie"

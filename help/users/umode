@@ -1,0 +1,15 @@
+MODE <nick> <+|-><modes>
+
+Usermodes:
+
+     USERMODE     DESCRIPTION
+-----------------------------------------------------------------
+         +o     - Designates this client is an IRC Operator.
+                  Use the /oper command to attain this.
+         +i     - Designates this client 'invisible'.
+         +g     - "caller id" mode only allow accept clients to message you
+         +T     - Cyrillic to latin character translation (Windows-1251)
+         +Y     - Cyrillic to latin character translation (ISO-8859-5)
+         +R     - Accept PRIVMSGs from registered nicks only
+         +S     - Accept PRIVMSGs from SSL-connected clients only
+         +e     - Show server numeric replies in alternative language
